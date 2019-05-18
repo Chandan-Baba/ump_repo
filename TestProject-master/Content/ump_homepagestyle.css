@@ -388,3 +388,48 @@ section#services-top .img-area {
 .content-area {
     padding-left: 30px;
 }
+.product_img_style{
+    width:400px;
+    height:489px;
+}
+section#inner-banner {
+    background: url(../Images/sec_product_banner.png) no-repeat fixed 50% center;
+    margin: 0 auto;
+    background-size: cover;
+}
+section{
+    padding: 50px 0px;
+}
+section#inner-banner .inner-heading {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+section#inner-banner .inner-heading h2 {
+    color: #fff;
+}
+h2 {
+    font-size: 40px;
+}
+section#inner-banner .inner-heading .breadcrumb {
+    background: none;
+    display: inline-flex;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+/* .breadcrumb-item:hover{
+    color:#28a745;
+} */
+h1, h2,h3,h4,h5,h6{
+    font-family: "Courier New", Courier, monospace;/*"Lucida Console", Monaco, monospace;*/
+}
+h2{
+    font-size: 40px;
+}
+.product_name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:35px;
+}
