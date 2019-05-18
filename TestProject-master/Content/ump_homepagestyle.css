@@ -344,3 +344,11 @@ height:60px;
         border: 0 
    }
 }
+
+section#services-top .img-area {
+    width: 100%;
+    position: relative;
+}
+.content-area {
+    padding-left: 30px;
+}
