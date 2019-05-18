@@ -5,7 +5,9 @@
     color: #656565;
     -webkit-font-smoothing: antialiased !important;
     overflow: auto;
-    width:1020px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    color: #666;
 }
 /* .header-top {
     position: fixed;
@@ -422,9 +424,7 @@ section#inner-banner .inner-heading .breadcrumb {
 /* .breadcrumb-item:hover{
     color:#28a745;
 } */
-h1, h2,h3,h4,h5,h6{
-    font-family: "Courier New", Courier, monospace;/*"Lucida Console", Monaco, monospace;*/
-}
+
 h2{
     font-size: 40px;
 }
@@ -432,4 +432,11 @@ h2{
     text-transform: uppercase;
     font-weight: bold;
     font-size:35px;
+}
+
+.main-container{
+    width: 990px;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
 }
