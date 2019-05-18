@@ -377,10 +377,10 @@ section#inner-banner {
     background-size: cover;
 }
 section{
-    padding: 50px 0px;
+    padding: 20px 0px;
 }
 section#inner-banner .inner-heading {
-    text-align: center;
+    text-align: left;
     display: block;
     width: 100%;
 }
