@@ -6006,12 +6006,14 @@ button.close {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 10px;
+  height: 10px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
 
 .carousel-indicators li::before {
