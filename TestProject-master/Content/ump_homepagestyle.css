@@ -22,8 +22,6 @@ section {
 .productOverviewBox {
     list-style: none;
 }
-<<<<<<< HEAD
-=======
 /* .hnav{
     display: block;
 }
@@ -44,7 +42,6 @@ section {
 /* *{
     box-sizing: border-box;
 } */
->>>>>>> dd55a72c23f7fe0cde8d27d9d3d374e9b233c1f7
 
 .header{
     z-index: 9999;
