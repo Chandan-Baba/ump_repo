@@ -31,10 +31,14 @@ section {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+}*/
 .clsCleaner{
-    height: 800px;
-} */
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
 /* *{
     box-sizing: border-box;
 } */
