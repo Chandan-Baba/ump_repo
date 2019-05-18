@@ -31,10 +31,14 @@ section {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+}*/
 .clsCleaner{
-    height: 800px;
-} */
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
 /* *{
     box-sizing: border-box;
 } */
@@ -339,4 +343,12 @@ height:60px;
     .dropdown-item:last-child{
         border: 0 
    }
+}
+
+section#services-top .img-area {
+    width: 100%;
+    position: relative;
+}
+.content-area {
+    padding-left: 30px;
 }
