@@ -37,3 +37,7 @@ section {
 *{
     box-sizing: border-box;
 }
+
+.hnav{
+    float:right;
+}
