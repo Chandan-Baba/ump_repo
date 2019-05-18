@@ -22,6 +22,29 @@ section {
 .productOverviewBox {
     list-style: none;
 }
+<<<<<<< HEAD
+=======
+/* .hnav{
+    display: block;
+}
+.hnav ul{
+    position: relative;
+    left: -10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}*/
+.clsCleaner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+/* *{
+    box-sizing: border-box;
+} */
+>>>>>>> dd55a72c23f7fe0cde8d27d9d3d374e9b233c1f7
 
 .header{
     z-index: 9999;
@@ -337,4 +360,13 @@ height:60px;
 #demo{
     width: 990px;
     height: 500px;
+
+
+}
+section#services-top .img-area {
+    width: 100%;
+    position: relative;
+}
+.content-area {
+    padding-left: 30px;
 }
