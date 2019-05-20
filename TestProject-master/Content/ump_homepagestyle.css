@@ -440,3 +440,16 @@ h2{
     padding-left: 0;
     padding-right: 0;
 }
+
+.img-aboutus img {
+    object-position: 50% 50%; 
+    width: 160px; 
+    height: 85px; 
+    object-fit: cover;
+  }
+
+  .kampfer-logo {
+    width: 200px; 
+    height: 120px; 
+    
+  }
