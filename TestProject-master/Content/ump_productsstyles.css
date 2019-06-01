@@ -214,3 +214,33 @@ header a:hover{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
  } */
+
+ .f_priceTag{
+  background: linear-gradient(#ECECEC 0%, 50%, #82C753 90%);
+  color:white;
+ }
+ .j_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #A93A7C 90%);
+  color:white;
+ }
+ .l_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #B5A900 90%);
+  color:white;
+ }
+ .r_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #C21C52 90%);
+  color:white;
+ }
+
+ .g_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #0093DC 90%);
+  color:white;
+ }
+ .t_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #0B34BE 90%);
+  color:white;
+ }
+ .d_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #C59A00 90%);
+  color:white;
+ }

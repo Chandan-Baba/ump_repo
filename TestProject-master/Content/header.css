@@ -1,17 +1,16 @@
 body {
-    font: 13px/24px "Poppins", sans-serif;
     font-weight: 400;
     background: #fff;
     color: #656565;
     -webkit-font-smoothing: antialiased !important;
     overflow: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     color: #666;
 }
 
 .brand-logo{
-    width: 130px;
+    /* width: 130px; */
     height:60px;
     }
 
