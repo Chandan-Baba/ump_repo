@@ -34,7 +34,7 @@
     0% {
         opacity: .5;
     background: rgba(213,156,34,.2);
-    
+
     }
     40% {
         opacity: 1;
@@ -62,7 +62,7 @@ font-family: Arial, Helvetica, sans-serif;
   list-style: none;
 }
 .product_name{
-  
+
   font-weight: bold;
   font-size:35px;
 }
@@ -75,12 +75,12 @@ section#services-top .img-area {
   padding-left: 30px;
   text-align: left;
 }
-.product_img_style{
+/*.product_img_style{
   width:400px;
   height:489px;
-}
+}*/
 .main-container{
-  /* width: 990px; 
+  /* width: 990px;
   text-align: left;*/
   padding-left: 0;
   padding-right: 0;
@@ -148,7 +148,7 @@ header a:hover{
   font-size: 35px;
   position: absolute;
   /* top: 0;
-  bottom: 0; 
+  bottom: 0;
   left: 40px;
   right: 0;
   height: 100%;
@@ -164,7 +164,7 @@ header a:hover{
   opacity: 1;
   display: block;
   /* width: 100%;
-  height: auto; 
+  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -200,7 +200,7 @@ header a:hover{
   font-size: 20px;
   padding: 16px 32px;
 }
-.img-area:not( :hover ){ 
+.img-area:not( :hover ){
   opacity:1;
  }
 
@@ -243,4 +243,11 @@ header a:hover{
  .d_priceTag{
   background: linear-gradient(#ECECEC 0%, 10%, #C59A00 90%);
   color:white;
+ }
+
+ @media (max-width: 600px){
+   .product_img_style{
+    border-color: red;
+    width: 200px;
+   }
  }
