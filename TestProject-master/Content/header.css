@@ -1,0 +1,43 @@
+body {
+    font-weight: 400;
+    background: #fff;
+    color: #656565;
+    -webkit-font-smoothing: antialiased !important;
+    overflow: auto;
+    font-family: 'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    color: #666;
+}
+
+.brand-logo{
+    /* width: 130px; */
+    height:60px;
+    }
+
+    section#inner-banner {
+        background: url(../Images/sec_product_banner.png) no-repeat fixed 50% center;
+        margin: 0 auto;
+        background-size: cover;
+    }
+    section{
+        padding: 20px 0px;
+    }
+    section#inner-banner .inner-heading {
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+    section#inner-banner .inner-heading h2 {
+        color: #fff;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    section#inner-banner .inner-heading .breadcrumb {
+        background: none;
+        display: inline-flex;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 20px;
+    }

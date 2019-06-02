@@ -1,38 +1,4 @@
-/* html{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-body{
-  background: linear-gradient(90deg, #b9deed, #efefef);
-  margin: 0;
-  padding: 0;
-} */
-/* 
-.main{
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-  justify-content: center;
-}
-.column{
-  flex-basis: 1 10px;
-  width: calc(100% / 3 - 10px);
-  margin: 5px;
-  padding: 0;
-} */
-/* .img-area {
-  position: relative; 
-  overflow: hidden;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  filter: grayscale(.8);
-} */
-/* .img-area img{
-  width: 100%;
-  height: 100%;
-} */
+
 .img-area::before {
     position: absolute;
     /* top: 50%;
@@ -90,6 +56,41 @@ body{
 font-weight: bold;
 font-size:16px;
 font-family: Arial, Helvetica, sans-serif;
+}
+
+.productOverviewBox {
+  list-style: none;
+}
+.product_name{
+  
+  font-weight: bold;
+  font-size:35px;
+}
+
+section#services-top .img-area {
+  width: 100%;
+  position: relative;
+}
+.content-area {
+  padding-left: 30px;
+  text-align: left;
+}
+.product_img_style{
+  width:400px;
+  height:489px;
+}
+.main-container{
+  /* width: 990px; 
+  text-align: left;*/
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper{
+  text-align:center;
+}
+
+.txtBold{
+  font-weight: bold;
 }
 /* General style */
 /* header{
@@ -159,11 +160,11 @@ header a:hover{
   text-align: center;
 } */
 
-.priceTag {
+/* .priceTag {
   opacity: 1;
   display: block;
   /* width: 100%;
-  height: auto; */
+  height: auto; 
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -212,4 +213,34 @@ header a:hover{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+ } */
+
+ .f_priceTag{
+  background: linear-gradient(#ECECEC 0%, 50%, #82C753 90%);
+  color:white;
+ }
+ .j_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #A93A7C 90%);
+  color:white;
+ }
+ .l_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #B5A900 90%);
+  color:white;
+ }
+ .r_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #C21C52 90%);
+  color:white;
+ }
+
+ .g_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #0093DC 90%);
+  color:white;
+ }
+ .t_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #0B34BE 90%);
+  color:white;
+ }
+ .d_priceTag{
+  background: linear-gradient(#ECECEC 0%, 10%, #C59A00 90%);
+  color:white;
  }
