@@ -1,4 +1,4 @@
-﻿section {
+﻿.section {
     overflow: hidden;
 }
 
@@ -30,16 +30,6 @@
    height: 100%;
 }
 
-
-/* .breadcrumb-item:hover{
-    color:#28a745;
-} */
-
-/* h2{
-    font-size: 40px;
-} */
-
-
 .img-aboutus img {
     object-position: 50% 50%; 
     width: 160px; 
@@ -52,9 +42,7 @@
     height: 120px; 
     
   }
-.txtRight{
-    text-align:right;
-}
+
 /* .sec_aus{
   background:linear-gradient(#5F93C5 30%, 70%, #AC7AD9 90%);
   color: white;

@@ -14,7 +14,7 @@ body {
     height: 60px;
 }
 
-section#inner-banner {
+div.inner-banner {
     background: linear-gradient(45deg, black, black);
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -24,32 +24,32 @@ section#inner-banner {
     color: white;
 }
 
-section {
+/* section {
     padding: 20px 0px;
 }
 
-section#inner-banner .inner-heading {
+section.inner-banner .inner-heading {
     text-align: left;
     display: block;
     width: 100%;
 }
 
-section#inner-banner .inner-heading h2 {
+section.inner-banner .inner-heading h2 {
     color: #fff;
-}
+} */
 
 h2 {
     font-size: 40px;
 }
 
-section#inner-banner .inner-heading .breadcrumb {
+/* section.inner-banner .inner-heading .breadcrumb {
     background: none;
     display: inline-flex;
     width: auto;
     padding: 0px;
     margin: 0px;
     margin-top: 20px;
-}
+} */
 
 .header {
     z-index: 9999;
