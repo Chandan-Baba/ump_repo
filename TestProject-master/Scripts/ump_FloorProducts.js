@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('.text2').on('click',function(){
-        alert('hello')
-    })
-})
+// $(document).ready(function(){
+//     $('.text2').on('click',function(){
+//         alert('hello')
+//     })
+// })
