@@ -120,6 +120,19 @@ font-family: Arial, Helvetica, sans-serif;
   color:white;
  }
 
+
+
+.inner-banner .inner-heading {
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.inner-banner .inner-heading h2 {
+    color: #fff;
+} 
+
  @media (max-width: 600px){
    /* .product_img_style{
     border-color: red;
