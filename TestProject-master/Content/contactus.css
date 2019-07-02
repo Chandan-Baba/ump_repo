@@ -18,3 +18,8 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+.content-area {
+  padding-top: 20px;
+  text-align: left;
+}
