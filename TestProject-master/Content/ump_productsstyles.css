@@ -72,7 +72,7 @@ font-family: Arial, Helvetica, sans-serif;
   position: relative;
 } */
 .content-area {
-  padding-left: 30px;
+  padding-top: 20px;
   text-align: left;
 }
 /*.product_img_style{
@@ -89,6 +89,7 @@ font-family: Arial, Helvetica, sans-serif;
   text-align:center;
 }
 
+.textleft{text-align: left;}
 
  .f_priceTag{
   background: linear-gradient(#ECECEC 0%, 50%, #82C753 90%);
