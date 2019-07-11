@@ -1,0 +1,25 @@
+﻿.contactus section {
+    padding: 20px 0 20px 20px;
+}
+
+.inner-banner .inner-heading {
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-area {
+  padding-top: 20px;
+  text-align: left;
+}

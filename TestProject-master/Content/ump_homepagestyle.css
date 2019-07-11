@@ -1,9 +1,7 @@
-﻿
-
-section {
+﻿section {
     overflow: hidden;
+    padding-top: 30px;
 }
-
 
 .clsCleaner{
     position: relative;
@@ -14,45 +12,14 @@ section {
 } 
 
 
-.header{
-    z-index: 9999;
-    width: 100%;
-    background: #fff;
-    position: relative;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    display: block;
-}
-
-
 .carousel-item img{
-    
-    /*background-repeat: no-repeat;
-    background-color: rgba(0,0,0,0);
-    background-position: left top;
-    background-size: cover;
-    opacity: 1;
-    visibility: inherit;*/
     object-position: 50% 50%; 
     width: 100%; 
-    height: 440px; 
+    height: 100%; 
     object-fit: cover;
 }
 
-
-
-
-  .img-container img {
-    /*width:100%;
-    height:450px;
-    background-repeat: no-repeat;
-    background-color: rgba(0,0,0,0);
-    background-position: left top;
-    background-size: cover;
-    opacity: 1;
-    visibility: inherit;*/
+.img-container img {
     object-position: 50% 50%; 
     width: 940px; 
     height: 440px; 
@@ -62,36 +29,20 @@ section {
 #demo{
    width: 100%;
    height: 100%;
-
-
 }
 
-
-/* .breadcrumb-item:hover{
-    color:#28a745;
-} */
-
-h2{
-    font-size: 40px;
-}
-
-
-.img-aboutus img {
+.kampfer-logo img {
     object-position: 50% 50%; 
-    width: 160px; 
-    height: 85px; 
+    width: 400px; 
+    height: 200px; 
     object-fit: cover;
   }
 
-  .kampfer-logo {
-    width: 200px; 
-    height: 120px; 
-    
-  }
-.txtRight{
-    text-align:right;
-}
 
+/* .sec_aus{
+  background:linear-gradient(#5F93C5 30%, 70%, #AC7AD9 90%);
+  color: white;
+} */
 
 
 
