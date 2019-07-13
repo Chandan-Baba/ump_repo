@@ -38,6 +38,111 @@
     object-fit: cover;
   }
 
+  
+  @media (max-width: 330px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 85%; 
+      height: 130px; 
+      object-fit: cover;
+    }
+  }
+  @media only screen and (min-width: 350px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 95%; 
+      height: 160px; 
+      object-fit: cover;
+    }
+  }
+  @media (min-width: 401px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 85%; 
+      height: 170px; 
+      object-fit: cover;
+    }
+  }
+  @media (min-width: 500px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 85%; 
+      height: 170px; 
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 550px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 50%; 
+      height: 140px; 
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 600px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 55%; 
+      height: 170px; 
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 650px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 50%; 
+      height: 160px; 
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 700px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 50%; 
+      height: 160px; 
+      object-fit: cover;
+    }
+  }
+  @media (min-width: 750px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 75%; 
+      height: 290px; 
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 800px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 40%; 
+      height: 160px; 
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 1000px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 45%; 
+      height: 240px; 
+      object-fit: cover;
+    }
+  }
+
+  
+  @media (min-width: 1050px){
+    .kampfer-logo img {
+      object-position: 50% 50%; 
+      width: 27%; 
+      height: 185px; 
+      object-fit: cover;
+    }
+  }
 
 /* .sec_aus{
   background:linear-gradient(#5F93C5 30%, 70%, #AC7AD9 90%);
