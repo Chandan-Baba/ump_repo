@@ -26,6 +26,7 @@ If you add a form field, you will need to add it here.
 $email_address = $_REQUEST['email_address'] ;
 $comments = $_REQUEST['comments'] ;
 $first_name = $_REQUEST['first_name'] ;
+$subject = $_REQUEST['subject'] ;
 $msg = 
 "First Name: " . $first_name . "\r\n" . 
 "Email: " . $email_address . "\r\n" . 
@@ -75,7 +76,7 @@ header( "Location: $error_page" );
 // If we passed all previous tests, send the email then redirect to the thank you page.
 else {
 
-	mail( "$webmaster_email", "Feedback Form Results", $msg );
+	mail( "$webmaster_email", $subject, $msg );
 
 	header( "Location: $thankyou_page" );
 }
