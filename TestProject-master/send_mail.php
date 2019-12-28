@@ -2,7 +2,8 @@
 
 /* SMTP settings */
 
-
+SMTP : "mail.umpwomenindia.com";
+smtp_port : 587;
 
 /*
 This first bit sets the email address that you want the form to be submitted to.
