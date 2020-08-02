@@ -72,7 +72,7 @@ font-family: Arial, Helvetica, sans-serif;
   position: relative;
 } */
 .content-area {
-  padding-left: 30px;
+  padding-top: 20px;
   text-align: left;
 }
 /*.product_img_style{
@@ -89,6 +89,7 @@ font-family: Arial, Helvetica, sans-serif;
   text-align:center;
 }
 
+.textleft{text-align: left;}
 
  .f_priceTag{
   background: linear-gradient(#ECECEC 0%, 50%, #82C753 90%);
@@ -120,6 +121,19 @@ font-family: Arial, Helvetica, sans-serif;
   color:white;
  }
 
+
+
+.inner-banner .inner-heading {
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.inner-banner .inner-heading h2 {
+    color: #fff;
+} 
+
  @media (max-width: 600px){
    /* .product_img_style{
     border-color: red;
@@ -129,3 +143,11 @@ font-family: Arial, Helvetica, sans-serif;
  /* p{
   font-size:2vw;
  } */
+
+ .product_img_style{
+   width:95%;
+ }
+
+ .sub-heading{
+     font-size:30px;
+ }
